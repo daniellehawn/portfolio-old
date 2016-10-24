@@ -1,0 +1,37 @@
+<style>
+* {
+  margin:0;
+  }
+
+  p {
+  font-family: Segoe UI, Arial, sans-serif;
+  color: black
+  }
+
+  html, body {
+  background: rgba(217, 213, 204, 0.7);
+  height: 100%;
+  }
+
+  footer {
+    border: 2px solid #5d5d5d; 
+    background: #5d5d5d;
+    color: white;
+    padding-left: 5px;
+    height: 142px;
+    display: block;
+  }
+
+  footer a {
+  color: white;
+  }
+
+  footer a:hover {
+  color: aqua;
+  }
+
+  footer a:visited {
+  color: goldenrod;
+  }
+
+</style>
