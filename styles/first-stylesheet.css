@@ -1,37 +1,43 @@
 <style>
-* {
-  margin:0;
-  }
-
-  p {
-  font-family: Segoe UI, Arial, sans-serif;
-  color: black
-  }
-
   html, body {
-  background: rgba(217, 213, 204, 0.7);
-  height: 100%;
+    margin: 10;
+    padding: 0;
+    height: 100%;
+  }
+
+  header {
+    background: #5d5d5d;
+    padding: 10px;
+  }
+
+  main {
+    min-height: 100%;
+    position: relative;
   }
 
   footer {
-    border: 2px solid #5d5d5d; 
     background: #5d5d5d;
     color: white;
     padding-left: 5px;
     height: 142px;
-    display: block;
+    position: absolute;
+    width: 100%;
   }
 
   footer a {
-  color: white;
+    color: white;
   }
 
   footer a:hover {
-  color: aqua;
+    color: aqua;
   }
 
   footer a:visited {
-  color: goldenrod;
+    color: goldenrod;
   }
 
+  p {
+    font-family: Segoe UI, Arial, sans-serif;
+    color: black
+  }
 </style>
