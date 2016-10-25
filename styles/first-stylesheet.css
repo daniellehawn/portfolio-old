@@ -10,6 +10,18 @@
     padding: 10px;
   }
 
+  header a {
+    color: white;
+  }
+
+  header a:hover {
+    color: aqua;
+  }
+
+  header a:visited {
+    color: goldenrod;
+  }
+
   main {
     min-height: 100%;
     position: relative;
@@ -36,8 +48,22 @@
     color: goldenrod;
   }
 
-  p {
+  p, ul, ol, li {
     font-family: Segoe UI, Arial, sans-serif;
     color: black
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Segoe UI, Arial, sans-serif;
+    color: black
+  }
+
+  h1 {
+    text-align: center;
+    color: rebeccapurple;
+  }
+
+  h1:hover {
+    background-color: lightgrey;
   }
 </style>
