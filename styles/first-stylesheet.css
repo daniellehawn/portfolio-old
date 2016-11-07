@@ -1,70 +1,122 @@
 <style>
-  html, body {
-    margin: 10;
-    padding: 0;
-    height: 100%;
+html, body {
+  margin: 10;
+  padding: 0;
+  height: 100%;
+  clear: both;
   }
 
-  header {
-    background: #5d5d5d;
-    padding: 10px;
+/* Start Header Styles */
+header {
+  background-image: url("images/headergraphic.png");
+  background-color: rgb(3,5,9);
+  padding: 6px 12px 10px 20px;
+  clear: both;
   }
 
-  header a {
-    color: white;
+h1 {
+  text-align: left;
+  color: white;
   }
 
-  header a:hover {
-    color: aqua;
+ul.headernav {
+  list-style-type: none;
+  margin: 0;
+  padding:  0 .6em;
+  overflow: hidden;
+  background: rgb(64, 64, 64);
+}
+
+ul.headernav li {float: left}
+
+ul.headernav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: .5em .7em;
+  text-decoration: underline;
+  font-size: 1.25em;
+}
+
+ul.headernav li a:hover {
+  color: #85754d;
+}
+
+/* Begin Footer Styles */
+footer {
+  background-color: #4b2e83;
+  background-image: linear-gradient(#4b2e83, #241640);
+  color: white;
+  padding: .25em 0em;
+  margin: 0;
+  font-family: Segoe UI, Arial, sans-serif;
+  clear: both;
+  text-align: center;
   }
 
-  header a:visited {
-    color: goldenrod;
-  }
+footer a { color: white; }
 
-  main {
-    min-height: 100%;
-    position: relative;
-  }
+footer a:hover {color: #85754d;}
 
-  footer {
-    background: #5d5d5d;
-    color: white;
-    padding-left: 5px;
-    height: 142px;
-    position: absolute;
-    width: 100%;
-    font-family: Segoe UI, Arial, sans-serif;
-  }
+/* Start Footer Contact Info Styles */
 
-  footer a {
-    color: white;
-  }
+ul.footercontact {
+  list-style-type: none;
+  margin: 0;
+  padding:  0 .3em;
+  overflow: hidden;
+  display: inline-block;
+}
 
-  footer a:hover {
-    color: aqua;
-  }
+ul.footercontact li {float: left}
 
-  footer a:visited {
-    color: goldenrod;
-  }
+ul.footercontact li a {
+  display: inline-block;
+  padding: .5em .3em;
+  text-decoration: underline;
+  text-align: center;
+}
 
-  p, ul, ol, li {
+/* Start Footer Nav Styles */
+ul.footernav {
+  list-style-type: none;
+  margin: 0;
+  padding:  0 .3em;
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul.footernav li {float: left}
+
+ul.footernav li a {
+  display: inline-block;
+  padding: .5em .3em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.footernav li:after {
+  content: "/";
+  color: white;
+}
+
+.footernav li:last-child:after {
+  content: "";
+}
+
+.footertext { 
+  color: white;
+  text-align: center;
+}
+
+p, ul, ol, li {
     font-family: Segoe UI, Arial, sans-serif;
     color: black
   }
 
-  h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: Segoe UI, Arial, sans-serif;
     color: black
   }
 
-  h1 {
-    text-align: center;
-    color: rebeccapurple;
-  }
-
-  h1:hover {
-    background-color: lightgrey;
-  }
 </style>
