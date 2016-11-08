@@ -34,7 +34,7 @@ ul.headernav li a {
   color: white;
   text-align: center;
   padding: .5em .7em;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 1.25em;
 }
 
@@ -73,7 +73,7 @@ ul.footercontact li {float: left}
 ul.footercontact li a {
   display: inline-block;
   padding: .5em .3em;
-  text-decoration: underline;
+  text-decoration: none;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ ul.footernav li {float: left}
 ul.footernav li a {
   display: inline-block;
   padding: .5em .3em;
-  text-decoration: underline;
+  text-decoration: none;
   text-align: center;
 }
 
