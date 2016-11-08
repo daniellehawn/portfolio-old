@@ -1,22 +1,36 @@
 <style>
 html, body {
-  margin: 10;
+  margin: 0;
   padding: 0;
   height: 100%;
-  clear: both;
+  clear: both; 
   }
+
+/* Generic Styles */
+p, ul, ol, li {
+  font-family: 'Roboto', sans-serif;
+  color: black
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  }
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: black
+}
+
+main { padding: .25em .75em; }
 
 /* Start Header Styles */
 header {
   background-image: url("images/headergraphic.png");
-  background-color: rgb(3,5,9);
-  padding: 6px 12px 10px 20px;
+  background-color: rgb(3,5,9); 
+  padding: 10px; 
   clear: both;
-  }
-
-h1 {
-  text-align: left;
-  color: white;
   }
 
 ul.headernav {
@@ -24,7 +38,8 @@ ul.headernav {
   margin: 0;
   padding:  0 .6em;
   overflow: hidden;
-  background: rgb(64, 64, 64);
+  background: #4b2e83;
+  background-image: linear-gradient(#241640, #4b2e83);
 }
 
 ul.headernav li {float: left}
@@ -38,9 +53,7 @@ ul.headernav li a {
   font-size: 1.25em;
 }
 
-ul.headernav li a:hover {
-  color: #85754d;
-}
+ul.headernav li a:hover {color: #85754d; }
 
 /* Begin Footer Styles */
 footer {
@@ -49,14 +62,17 @@ footer {
   color: white;
   padding: .25em 0em;
   margin: 0;
-  font-family: Segoe UI, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   clear: both;
   text-align: center;
+  height: 142px;
+  bottom: 0;
+  width: 100%;
   }
 
 footer a { color: white; }
 
-footer a:hover {color: #85754d;}
+footer a:hover {color: #85754d; }
 
 /* Start Footer Contact Info Styles */
 
@@ -100,23 +116,17 @@ ul.footernav li a {
   color: white;
 }
 
-.footernav li:last-child:after {
-  content: "";
-}
+.footernav li:last-child:after { content: ""; }
 
 .footertext { 
   color: white;
   text-align: center;
 }
 
-p, ul, ol, li {
-    font-family: Segoe UI, Arial, sans-serif;
-    color: black
-  }
+/* Float figures */
+figure { float: left; }
 
-h2, h3, h4, h5, h6 {
-    font-family: Segoe UI, Arial, sans-serif;
-    color: black
-  }
+/* Figcaption Style */
+figcaption { font-family: 'Roboto', sans-serif; }
 
 </style>
