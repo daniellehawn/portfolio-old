@@ -9,7 +9,7 @@ html, body {
 /* Generic Styles */
 p, ul, ol, li {
   font-family: 'Roboto', sans-serif;
-  color: black
+  color: black;
 }
 
 h1 {
@@ -20,10 +20,10 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
-  color: black
+  color: black;
 }
 
-main { padding: .25em .75em; }
+main { padding: .25em .75em 16.25em; }
 
 /* Start Header Styles */
 header {
@@ -54,6 +54,13 @@ ul.headernav li a {
 }
 
 ul.headernav li a:hover {color: #85754d; }
+
+.headernav li:first-child a { 
+  color: #85754d;
+  font-weight: bold;
+}
+
+.headernav li:first-child a:hover { color: white; }
 
 /* Begin Footer Styles */
 footer {
@@ -123,10 +130,39 @@ ul.footernav li a {
   text-align: center;
 }
 
-/* Float figures */
-figure { float: left; }
+/* Float and Transform figures */
+figure { 
+  float: left;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+figure:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
 
 /* Figcaption Style */
-figcaption { font-family: 'Roboto', sans-serif; }
+figcaption { 
+  font-family: 'Roboto', sans-serif;
+  font-size: .75em;
+}
+
+/*Cat Gallery Styles */
+
+.catgallery img { 
+  float: left;
+}
+
+.catgallery img:hover { 
+  box-shadow:  1px 1px #4b2e83, 2px 2px #4b2e83, 3px 3px #4b2e83;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px)
+}
+
+ul.catgallery { list-style-type: none; padding: 0 .3em; }
+
+ul.catgallery li img {display: inline-block; padding: .5em; }
+
 
 </style>
