@@ -2,55 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <script src="https://use.fontawesome.com/dc3783e120.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+    </style>
     <title>Projects</title>
   </head>
   <body>
-    
+  <div class="container">  
     <header>
-      <img src="images/headergraphic.png" alt="Danielle Hawn header graphic">
-    </header>
+    <div class="page-header">
+      <h1>Danielle Hawn <small>Projects</small></h1>
+    </div>
     <nav>
-      <ul class="headernav">
-        <li><a href="../portfolio/index.html">Home</a></li>
-        <li><a href="../portfolio/projects.html">Projects</a></li>
-        <li><a href="../portfolio/about-me.html">About Me</a></li>
-        <li><a href="../portfolio/cats.html">Cats</a></li>
+      <ul class="nav nav-pills">
+        <li role="presentation"><a href="../portfolio/index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="../portfolio/projects.html">Projects</a></li>
+        <li role="presentation"><a href="../portfolio/about-me.html">About Me</a></li>
+        <li role="presentation"><a href="../portfolio/cats.html">Cats</a></li>
         </ul>
     </nav>
+    </header>
         
     <main>
-    <h1>Projects</h1>
     <section>
       <h2>List of Projects</h2>
       <p>This page contains a listing of projects for this class:</p>
-        <p><a href="../semantic_tags/index.html"><img src="../portfolio/images/mr-cat.png" alt="Cooper J Cat">Cooper J Cat for President</a></p>
-        <p><a href="../week04-practice/index.html"><img src="images/kittens2go.jpg" alt="Kitties To Go sample">Kitties To Go!</a></p>
-        <p><a href="#">Place Holder</a></p>
-        <p><a href="#">Place Holder</a></p>
-        <p><a href="#">Place Holder</a></p>
-        <p><a href="#">Place Holder</a></p>
+      <div class="row">
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail">
+            <img src="../portfolio/images/mr-cat.png" alt="Cooper J Cat">
+          </div>
+          <div class="caption">
+            <h3>Cooper J Cat for President</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis varius elit. Praesent pulvinar dui mollis, feugiat lectus et, feugiat nulla. Nunc pellentesque luctus rutrum. Integer ac tristique justo, ut molestie tortor. Proin vitae elit vehicula, scelerisque lectus sit amet.</p>
+            <p><a href="../week1/semantic_tags/index.html" class="btn btn-primary" role="button">Learn More...</a></p>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail">
+            <img src="images/kittens2go.jpg" alt="Kitties to Go">
+          </div>
+          <div class="caption">
+            <h3>Kitties to Go!</h3>
+            <p>Fusce accumsan enim in cursus pretium. Nulla sem mi, hendrerit eu elementum at, rutrum id metus. Vestibulum tristique neque pretium ante elementum tincidunt. Aliquam ornare euismod arcu ut porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            <p><a href="../week4/week04-practice/week04-practice/index.html" class="btn btn-primary" role="button">Learn More...</a></p>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail">
+            <img src="../week7/images/class1.jpg" alt="Straight to the Point Archery class">
+          </div>
+          <div class="caption">
+            <h3>Straight to the Point Archery</h3>
+            <p>Fusce accumsan enim in cursus pretium. Nulla sem mi, hendrerit eu elementum at, rutrum id metus. Vestibulum tristique neque pretium ante elementum tincidunt. Aliquam ornare euismod arcu ut porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p><a href="../week7/index.html" class="btn btn-primary" role="button">Learn More...</a></p>
+          </div>
+          </div>
+        </div>
     </section>
     </main>
     
-    <footer>
-      <ul class="footercontact">
-        <li><a href="http://www.twitter.com/danielleruns"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="http://www.instagram.com/danielleruns"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="http://www.linkedin.com/in/daniellehawn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-    </ul>
+    <footer class="footer text-center">
+      <p class="container">
+        <a href="http://www.twitter.com/danielleruns"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        <a href="http://www.instagram.com/danielleruns"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        <a href="http://www.linkedin.com/in/daniellehawn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </p>
     <nav>
-      <ul class="footernav">
+      <ul class="breadcrumb">
         <li><a href="../portfolio/index.html">Home</a></li>
-        <li><a href="../portfolio/projects.html">Projects</a></li>
+        <li class="active"><a href="../portfolio/projects.html">Projects</a></li>
         <li><a href="../portfolio/about-me.html">About Me</a></li>
         <li><a href="../portfolio/cats.html">Cats</a></li>
       </ul>
     </nav>
-    <p class="footertext">Designed by Danielle Hawn &copy;2016</p>
+    <address>
+      <p><strong>Site Designed by:</strong><br>
+        Danielle Hawn &copy;2016
+        <abbr title="Email">E:</abbr><a href="mailto:danielledhawn@gmail.com">danielledhawn@gmail.com</a>
+        <abbr title="Phone">P:</abbr> (206) 555-5555
+      </p>
+    </address>
   </footer>
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </div>
   </body>
 </html>
